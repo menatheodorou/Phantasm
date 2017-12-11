@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:theme="@style/AppToolbarTheme">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            app:tabGravity="center"
+            app:tabMode="fixed"
+            android:background="@color/material_blue_grey_800"
+            app:tabIndicatorColor="@color/app_green_color"
+            app:tabSelectedTextColor="@color/app_green_color"
+            app:tabTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.design.widget.TabLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.phantasm.phantasm.main.ui.PTNavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="-24dp"
+            app:itemTextColor="@color/black"
+            app:menu="@menu/menu_home_drawer" />
+
+        <com.phantasm.phantasm.common.ui.widgets.NonSwipeableViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.phantasm.phantasm.common.ui.widgets.NonSwipeableViewPager>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

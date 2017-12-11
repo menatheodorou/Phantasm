@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_facebook_layout_height">30.0dp</dimen>
+    <dimen name="login_facebook_layout_text_size">10.0dp</dimen>
+    <dimen name="login_layout_height">60.0dp</dimen>
+    <dimen name="login_layout_text_size">20.0dp</dimen>
+    <dimen name="signup_layout_height">60.0dp</dimen>
+    <dimen name="signup_layout_text_size">20.0dp</dimen>
+    <dimen name="edit_text_height">70.0dp</dimen>
+    <dimen name="text_size">16.0sp</dimen>
+
+    <!-- Section Bar -->
+    <dimen name="section_underline_height">2dp</dimen>
+    <dimen name="section_bar_height">80dp</dimen>
+    <dimen name="video_controller_height">80dp</dimen>
+</resources>

@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/section_bar_height">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/section_underline_height"
+        android:background="@color/section_underline_bg_color"
+        android:id="@+id/vgSectionUnderLineTop">
+    </View>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/common_padding_small0"
+        android:paddingRight="@dimen/common_padding_small0"
+        android:id="@+id/vgSectionButtons">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/vgVideo"
+            android:layout_weight="1">
+
+            <com.gpit.android.ui.common.SquareImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_padding_small2"
+                android:layout_marginRight="@dimen/common_padding_small2"
+                android:layout_marginTop="@dimen/common_padding_medium1"
+                android:layout_marginBottom="@dimen/common_padding_medium1"
+                android:layout_gravity="center"
+                android:id="@+id/ivVideo"
+                android:src="@drawable/ic_video"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                app:keep_width="false"/>
+
+            <com.gpit.android.ui.common.SquareImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_padding_small2"
+                android:layout_marginRight="@dimen/common_padding_small2"
+                android:layout_marginTop="@dimen/common_padding_small3"
+                android:layout_marginBottom="@dimen/common_padding_small3"
+                android:layout_gravity="center"
+                android:id="@+id/ivVideoLarge"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_video"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                android:visibility="invisible"
+                app:keep_width="false"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/vgShare"
+            android:layout_weight="1">
+
+            <com.gpit.android.ui.common.SquareImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_padding_small2"
+                android:layout_marginRight="@dimen/common_padding_small2"
+                android:layout_marginTop="@dimen/common_padding_medium1"
+                android:layout_marginBottom="@dimen/common_padding_medium1"
+                android:layout_gravity="center"
+                android:id="@+id/ivShare"
+                android:src="@drawable/ic_share"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                app:keep_width="false"/>
+
+            <com.gpit.android.ui.common.SquareImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_padding_small2"
+                android:layout_marginRight="@dimen/common_padding_small2"
+                android:layout_marginTop="@dimen/common_padding_small3"
+                android:layout_marginBottom="@dimen/common_padding_small3"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:id="@+id/ivShareLarge"
+                android:src="@drawable/ic_share"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                android:visibility="invisible"
+                app:keep_width="false"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/vgAudio"
+            android:layout_weight="1">
+
+            <com.gpit.android.ui.common.SquareImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_padding_small2"
+                android:layout_marginRight="@dimen/common_padding_small2"
+                android:layout_marginTop="@dimen/common_padding_medium1"
+                android:layout_marginBottom="@dimen/common_padding_medium1"
+                android:layout_gravity="center"
+                android:id="@+id/ivAudio"
+                android:src="@drawable/ic_audio"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                app:keep_width="false"/>
+
+            <com.gpit.android.ui.common.SquareImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_padding_small2"
+                android:layout_marginRight="@dimen/common_padding_small2"
+                android:layout_marginTop="@dimen/common_padding_small3"
+                android:layout_marginBottom="@dimen/common_padding_small3"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:id="@+id/ivAudioLarge"
+                android:src="@drawable/ic_audio"
+                android:background="@null"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                android:visibility="invisible"
+                app:keep_width="false"/>
+        </FrameLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame" >
+
+    <FrameLayout
+        android:id="@+id/flActivityContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="@dimen/common_padding_medium"
+        android:layout_marginEnd="@dimen/common_padding_medium"
+        android:layout_marginTop="@dimen/common_padding_medium"
+        android:id="@+id/vgBuildInfo">
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:alpha="0.5"
+            android:text="@string/app_name"
+            android:textColor="@color/transparent_red" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:alpha="0.5"
+            android:text="@string/app_name"
+            android:textColor="@color/transparent_red"
+            android:layout_marginTop="@dimen/common_padding_small0"/>
+
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#00a8ff</color>
+    <color name="bluetransparent">#8000a8ff</color>
+    <color name="lightblue">#34B6FC</color>
+    <color name="darkblue">#005887</color>
+
+    <color name="item_border_color">#666666</color>
+    <color name="item_default_color">#EEEEEE</color>
+    <color name="item_pressed_color">#CCCCCC</color>
+    <color name="item_activated_color">#77CEEE</color>
+
+    <color name="black">#000000</color>
+    <color name="navbar">#707070</color>
+    <color name="darkgray">#263238</color>
+    <color name="offwhite">#fffefefe</color>
+    <color name="yellow">#FFFEED2A</color>
+    <color name="transparent">#000000ff</color>
+    <color name="red">#FFDF2C59</color>
+    <color name="lighterblue">#FF48B5E2</color>
+
+    <color name="gray">#333333</color>
+    <color name="cursorColor">#ffffff</color>
+    <color name="primary_color">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#09ffc3</color>
+    <color name="pressed_color">#FF48B5E2</color>
+    <color name="selected_color">#FFDF2C59</color>
+    <color name="primaryColor">#333333</color>
+    <color name="blue_face_book">#3B5998</color>
+
+    <color name="app_bg_color">#160004</color>
+    <color name="app_green_color">#00dc9a</color>
+    <color name="app_bright_green_color">#00f6dc</color>
+    <color name="app_deep_green_color">#04694b</color>
+    <color name="app_grey_color">#333333</color>
+    <color name="section_underline_bg_color">#606061</color>
+    <color name="drag_panel_color">#333333</color>
+    <color name="media_controller_widget_bg_color">#bf121314</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">GPITCommon</string>
+
+    <!-- Common -->
+    <string name="sample">Sample</string>
+    
+    <!-- Dialog -->
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <!-- GPS ON/OFF -->
+    <string name="gps_on_title">GPS</string>
+    <string name="gps_on_description">May I use your location?</string>
+    <string name="gps_ok">OK</string>
+    <string name="gps_cancel">Cancel</string>
+    
+    <!-- SNS -->    
+    <string name="waiting">Please wait...</string>
+    <string name="close">Close</string>
+    <string name="sharedonfacebook">Your Facebook post was created successfully.</string>
+    <string name="shareerrorfacebook">Your Facebook post was failed.</string>
+    <string name="sharedontwitter">Your Twitter status was updated successfully.</string>
+    <string name="shareerrortwitter">Your Twitter status was failed to update.</string>
+    <string name="twitter">Twitter</string>
+    
+    <!-- Pull List -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    
+    <!-- file -->
+    <string name="msg_cannot_open_file">Can\'t open files</string>
+
+    <!-- Date -->
+    <string name="years_ago">%s years ago</string>
+    <string name="year_ago">%s year ago</string>
+    <string name="months_ago">%s months ago</string>
+    <string name="month_ago">%s month ago</string>
+    <string name="days_ago">%s days ago</string>
+    <string name="day_ago">%s day ago</string>
+    <string name="hours_ago">%s hours ago</string>
+    <string name="hour_ago">%s hour ago</string>
+    <string name="mins_ago">%s mins ago</string>
+    <string name="min_ago">%s min ago</string>
+    <string name="seconds_ago">%s seconds ago</string>
+    <string name="second_ago">%s second ago</string>
+
+    <!-- Network -->
+    <string name="needs_online">Sorry, this page requires a data connection</string>
+    <string name="disconnected_server_communication">Unable to communicate with the server. Please try again later.</string>
+    <string name="check_your_network_connection">Please check your network connection.</string>
+
+    <!-- ****************** Customized Component ****************** -->
+    <!-- Select Date Dialog -->
+    <string name="select_date_dlg_title">Select Date</string>
+    
+</resources>

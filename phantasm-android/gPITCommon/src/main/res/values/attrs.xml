@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextViewNoDependOnBackgroundSize">
+        <attr name="customBackground" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrHeaderBackground" format="reference|color" />
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+        <attr name="ptrMode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SquareImageView1">
+        <attr name="ratio_by_width" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="fitByWidth" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ViewGroup">
+        <attr name="keep_width" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="AnimatedTextSwitcher">
+        <attr name="layoutID" format="reference" />
+        <attr name="textViewID" format="reference" />
+        <attr name="animateInID" format="reference" />
+        <attr name="animateOutID" format="reference" />
+        <attr name="textColor" format="color" />
+        <attr name="text" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomFont">
+        <attr name="font" format="string" />
+        <attr name="regularFont" format="string" />
+        <attr name="boldFont" format="string" />
+        <attr name="italicFont" format="string" />
+    </declare-styleable>
+
+    <attr name="sectionListView.sectionTextViewPadding" format="dimension" />
+    <attr name="sectionListView.sectionTextViewTextColor" format="color" />
+    <attr name="sectionListView.sectionTextViewTextSize" format="dimension" />
+    <attr name="sectionListView.sectionItemPadding" format="dimension" />
+    <attr name="sectionListView.sectionItemBackground" format="color|reference" />
+    <attr name="sectionListView.listTextViewPadding" format="dimension" />
+    <attr name="sectionListView.listTextViewTextColor" format="color" />
+    <attr name="sectionListView.listTextViewTextSize" format="dimension" />
+    <attr name="sectionListView.listItemPadding" format="dimension" />
+    <attr name="sectionListView.listItemBackground" format="color|reference" />
+
+    <declare-styleable name="TintableImageButton">
+        <attr name="tint" format="reference|color" />
+    </declare-styleable>
+</resources>

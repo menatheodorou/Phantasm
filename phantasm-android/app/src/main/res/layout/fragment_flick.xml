@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame">
+
+    <FrameLayout
+        android:id="@+id/vgVideoFlickView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <com.phantasm.phantasm.common.ui.widgets.PTVerticalSlidingLayout
+        android:id="@+id/vgSlidingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <!-- To delivery event to drag view -->
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/common_padding_medium1"
+            android:background="@color/app_bg_color"
+            android:orientation="vertical"
+            android:focusableInTouchMode="false">
+
+            <ImageView
+                android:id="@+id/ivLine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_padding_small0"
+                android:layout_gravity="top"
+                android:background="@color/white" />
+
+            <ImageView
+                android:id="@+id/ivPanelBackground"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/drag_panel_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:orientation="vertical"
+            android:focusableInTouchMode="false">
+
+            <ImageButton
+                android:id="@+id/ibShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_share"
+                android:background="@null"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/common_padding_small2">
+
+                <com.phantasm.phantasm.main.ui.PTVideoChooseChannelView
+                    android:id="@+id/vgChooseChannelView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/common_padding_small2"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </com.phantasm.phantasm.common.ui.widgets.PTVerticalSlidingLayout>
+
+    <include
+        android:id="@+id/vgVideoController"
+        layout="@layout/widget_video_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+</FrameLayout>

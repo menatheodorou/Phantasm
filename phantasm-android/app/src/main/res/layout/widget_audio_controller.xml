@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vgRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivSeparateLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_padding_small0"
+        android:layout_gravity="top"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/vgHeaderBar"
+        android:padding="@dimen/common_padding_small2">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibArrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_padding_small2"
+            android:layout_marginRight="@dimen/common_padding_small2"
+            android:padding="@dimen/common_padding_small2"
+            android:background="@null"
+            android:src="@drawable/ic_arrow_up" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/common_padding_medium"
+            android:layout_marginRight="@dimen/common_padding_medium">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Beyond"
+                android:id="@+id/tvTitle"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:lines="1"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tvAuthor"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ibTopPause"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_padding_small2"
+            android:layout_marginRight="@dimen/common_padding_small2"
+            android:background="@null"
+            android:padding="@dimen/common_padding_small2"
+            android:src="@drawable/ic_action_playback_pause" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vgControlBar"
+        android:visibility="gone"
+        android:padding="@dimen/common_padding_small2">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/common_padding_small2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="0:00"
+                android:id="@+id/tvProgress"
+                android:textColor="@color/white" />
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sbProgress"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="0:00"
+                android:id="@+id/tvDuration"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/common_padding_small2">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ibPrev"
+                android:background="@null"
+                android:src="@drawable/ic_action_playback_rew" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibPlay"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/common_padding_medium2"
+                android:layout_marginRight="@dimen/common_padding_medium2"
+                android:background="@null"
+                android:src="@drawable/ic_action_playback_play" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibNext"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:src="@drawable/ic_action_playback_forw" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

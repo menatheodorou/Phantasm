@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome.PTTermsActivity">
+
+    <WebView
+        android:id="@+id/webViewTerms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/login_layout_height">
+    </WebView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_layout_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray">
+        <RelativeLayout
+            android:id="@+id/agree_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/agree"
+                android:textStyle="bold"
+                android:textSize="@dimen/signup_layout_text_size"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

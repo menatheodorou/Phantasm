@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.PTLoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:hint="Username or Email"/>
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_below="@id/txtUserName"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+        <RelativeLayout
+        android:id="@+id/forgot_pass_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_facebook_layout_height"
+        android:layout_below="@id/txtPass">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/forgot_password"
+        android:textStyle="italic"
+        android:textSize="@dimen/login_facebook_layout_text_size"
+        android:textColor="@color/blue_face_book"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/login_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/signup_layout_height"
+            android:layout_below="@id/forgot_pass_layout"
+            android:background="@color/gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login_lower"
+                android:textStyle="bold"
+                android:textSize="@dimen/signup_layout_text_size"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/login_facebook_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_layout">
+            <com.facebook.login.widget.LoginButton
+                xmlns:facebook="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/login_facebook_layout_text_size"
+                facebook:com_facebook_login_text="Log in with Facebook"
+                facebook:com_facebook_logout_text="Log in with Facebook"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">VMA</string>
+    <string name="title_activity_main">VMA Connect</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_title">Video Search</string>
+    <string name="search_hint">Video Search</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_quality">Quality</string>
+
+    <string name="error_generating">Sorry, there was a problem generating your video. Please try again.</string>
+    <string name="no_sharing_apps">No apps could be found for sharing your video.</string>
+    <string name="missing_success">Successful Tasm, Share it!</string>
+    <string name="share_video">Share video</string>
+
+    <string name="no_playing_apps">No apps could be found for playing your video.</string>
+    <string name="play_video">Play video</string>
+    <string name="artist">Artist</string>
+    <string name="rewind">Rewind</string>
+    <string name="play">Play</string>
+    <string name="tag"># tag</string>
+    <string name="muxing">Phantasm getting baked…</string>
+    <string name="sharing">Sharing…</string>
+
+    <string name="signup">SIGN UP</string>
+    <string name="reister">REGISTER</string>
+    <string name="agree">AGREE</string>
+    <string name="login">LOG IN</string>
+    <string name="login_lower">Login</string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="signup_facebook">Register with Facebook</string>
+    <string name="title_activity_sign_up">SIGN UP</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="facebook_app_id">482873108538986</string>
+
+    <!-- Tab Bar in Home Screen -->
+    <string name="create">Create</string>
+    <string name="gallery">Gallery</string>
+    <string name="connect">Connect</string>
+    <string name="flick">Flick</string>
+    <string name="home">Home</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+
+    <!-- Section Bar in Home Screen -->
+    <string name="share">Share</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video_audio">Video has audio</string>
+    <string name="section_video">@string/video</string>
+    <string name="section_audio">@string/audio</string>
+    <string name="section_share">@string/share</string>
+    <string name="audio_search">Audio search</string>
+    <string name="video_search">Video search</string>
+
+    <!-- Channels -->
+    <string name="spotify">Spotify</string>
+    <string name="giphy">Giphy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="title_activity_audio_playback">AudioPlaybackActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+    <string name="main_menu_search_item">Search</string>
+    <string name="main_menu_toggle_audio">Toggle Audio Fragment</string>
+
+    <string name="stop">Stop</string>
+    <string name="ffwd">Fast forward</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="save_button">Save</string>
+
+    <!-- Labels next to the start and end time edit boxes -->
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+
+    <string name="action_upload">Upload</string>
+
+    <string name="error_uploading">Sorry, there was a problem uploading your audio file. Please try again.</string>
+
+    <string name="time_seconds">seconds</string>
+
+
+    <!-- Progress dialog text for loading, recording, or saving... -->
+    <string name="progress_dialog_loading">Loading…</string>
+    <string name="progress_dialog_recording">Recording…</string>
+    <string name="progress_dialog_saving">Saving…</string>
+    <string name="progress_dialog_cancel">Cancel</string>
+    <string name="progress_dialog_stop">Stop</string>
+
+    <string name="confirm_delete_ringdroid">Are you sure?</string>
+    <string name="confirm_delete_non_ringdroid"
+        >Are you sure?  This file was not created using Ringdroid!</string>
+
+    <string name="delete_ok_button">Delete</string>
+    <string name="delete_cancel_button">Cancel</string>
+
+    <string name="delete_failed">Unable to delete file</string>
+
+    <!--
+     Success and error messages
+     -->
+
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_yes_button">Yes, please!</string>
+    <string name="alert_no_button">No, thanks.</string>
+
+    <string name="save_success_message">Saved!</string>
+    <string name="default_ringtone_success_message">Changed default ringtone</string>
+    <string name="default_notification_success_message">Changed default notification sound</string>
+    <string name="play_error">Unable to play this media file</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="write_error">Error writing file</string>
+    <string name="read_error">Error reading file</string>
+
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+
+    <string name="bad_extension_error">Sorry, Ringdroid is not yet able to edit files of type</string>
+    <string name="no_extension_error">Sorry, Ringdroid can\'t edit a file if it doesn\'t have an extension like .mp3 or .wav</string>
+
+    <!-- Common Error Message -->
+    <string name="disconnected_server_communication">Unable to communicate with the server. Please try again later.</string>
+    <string name="username_password_incorrect">Username and/or password incorrect</string>
+    <string name="check_your_network_connection">Please check your network connection.</string>
+
+    <string name="signup_login">Sign Up or Login</string>
+    <string name="spotlight">Spotlight</string>
+    <string name="my_channel_list">My Channel List</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="signin">Sign in</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="txt_continue">Continue</string>
+    <string name="verify_phone_number">VERIFY PHONE NUMBER</string>
+</resources>
